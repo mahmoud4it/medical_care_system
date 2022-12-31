@@ -1,8 +1,8 @@
 # Medical Care System
 Medical Care System (C++) - Data Structure
 
-1- Hospital\n
-2- Clinic\n
+1- Hospital
+2- Clinic
 3- Labs
 4- x-Rays
 5- Pharmacy
