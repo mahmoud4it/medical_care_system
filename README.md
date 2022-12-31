@@ -9,4 +9,8 @@
 ## 6- Blood Bank
 ## 7- Doctors
 ## 8- Patients
-## 9- Quit
+* 9- Quit
+
+![Screenshot](1.png)
+![Screenshot](2.png)
+![Screenshot](3.png)
