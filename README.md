@@ -2,17 +2,14 @@
  <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/mahmoud4it/medical_care_system">
+    <img src="screenshots/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Medical Care System Project</h3>
 
   <p align="center">
     Medical Care System (C++) - Data Structure
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
      31 Dec 2022
   </p>
