@@ -1,4 +1,4 @@
-# Medical Care System
+# Medical Care System Project
 * Medical Care System (C++) - Data Structure
 * 31 Dec 2022
 
@@ -21,3 +21,5 @@
 ![Screenshot](./screenshots/1.png)
 ![Screenshot](./screenshots/2.png)
 ![Screenshot](./screenshots/3.png)
+
+[![Medical Care System Part 1](https://img.youtube.com/vi/ebogGN9hTks/0.jpg)](https://youtu.be/ebogGN9hTks "Medical Care System Part 1")
