@@ -1,6 +1,6 @@
 # Medical Care System
-** Medical Care System (C++) - Data Structure
-** 31 Dec 2022
+* Medical Care System (C++) - Data Structure
+* 31 Dec 2022
 
 * 1- Hospital
 * 2- Clinic
