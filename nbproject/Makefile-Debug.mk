@@ -36,6 +36,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/Analysis.o \
+	${OBJECTDIR}/BloodBank.o \
+	${OBJECTDIR}/BloodReservation.o \
 	${OBJECTDIR}/BuyingMedicine.o \
 	${OBJECTDIR}/Category.o \
 	${OBJECTDIR}/Clinic.o \
@@ -53,8 +55,11 @@ OBJECTFILES= \
 	${OBJECTDIR}/Menu.o \
 	${OBJECTDIR}/Patient.o \
 	${OBJECTDIR}/Pharmacy.o \
+	${OBJECTDIR}/Rays.o \
+	${OBJECTDIR}/RaysReservation.o \
 	${OBJECTDIR}/Specialty.o \
 	${OBJECTDIR}/SubCategory.o \
+	${OBJECTDIR}/TypesRays.o \
 	${OBJECTDIR}/filehandling.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/mainMenu.o \
@@ -89,6 +94,16 @@ ${OBJECTDIR}/Analysis.o: Analysis.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Analysis.o Analysis.cpp
+
+${OBJECTDIR}/BloodBank.o: BloodBank.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/BloodBank.o BloodBank.cpp
+
+${OBJECTDIR}/BloodReservation.o: BloodReservation.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/BloodReservation.o BloodReservation.cpp
 
 ${OBJECTDIR}/BuyingMedicine.o: BuyingMedicine.cpp
 	${MKDIR} -p ${OBJECTDIR}
@@ -175,6 +190,16 @@ ${OBJECTDIR}/Pharmacy.o: Pharmacy.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Pharmacy.o Pharmacy.cpp
 
+${OBJECTDIR}/Rays.o: Rays.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Rays.o Rays.cpp
+
+${OBJECTDIR}/RaysReservation.o: RaysReservation.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/RaysReservation.o RaysReservation.cpp
+
 ${OBJECTDIR}/Specialty.o: Specialty.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -184,6 +209,11 @@ ${OBJECTDIR}/SubCategory.o: SubCategory.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/SubCategory.o SubCategory.cpp
+
+${OBJECTDIR}/TypesRays.o: TypesRays.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/TypesRays.o TypesRays.cpp
 
 ${OBJECTDIR}/filehandling.o: filehandling.cpp
 	${MKDIR} -p ${OBJECTDIR}

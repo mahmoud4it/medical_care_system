@@ -27,6 +27,13 @@
 #include "Medication.h"
 #include "BuyingMedicine.h"
 
+#include "Rays.h"
+#include "TypesRays.h"
+#include "RaysReservation.h"
+
+#include "BloodBank.h"
+#include "BloodReservation.h"
+
 #include "Doctor.h"
 #include "Specialty.h"
 
@@ -45,7 +52,12 @@ MedLinkedList<Lab> lab;
 MedLinkedList<Analysis> analysis;
 MedLinkedList<LabReservation> labsReservation;
 
-//MedLinkedList<XRay> xrays;
+MedLinkedList<Rays> rays;
+MedLinkedList<TypesRays> typesRays;
+MedLinkedList<RaysReservation> raysReservation;
+
+MedLinkedList<BloodBank> bloodBank;
+MedLinkedList<BloodReservation> bloodReservation;
 
 MedLinkedList<Pharmacy> pharmacys;
 MedLinkedList<Medication> medications;
@@ -77,12 +89,6 @@ template <class Temp,class Source,class Specialty>
 void getReport(int patientID,MedLinkedList<Temp> &relation,MedLinkedList<Specialty> &specialty);
 
 int main(int argc, char** argv) {
-    //----------- Patient ------------//
-    /*MedLinkedList<Patient> pl;
-    MedStack<Patient> ps;
-    MedQueue<Patient> pq;
-    cout << "------------- Linked List ------------- " << endl;
-     * */
     
     menu();
     
@@ -91,7 +97,6 @@ int main(int argc, char** argv) {
 
 //hospital_Patients(PID - HID - Date)
 //Clinic_Patients(PID - CID - Date)
-
 
 void Clear(){
     #if defined _WIN32
@@ -148,13 +153,13 @@ void menu() {
             subMenu(lab,analysis,labsReservation,true);
             break;
         case 4:
-            subMenu(doctors,specialtys,true);
+            subMenu(rays,typesRays,raysReservation,true);
             break;
         case 5:
             subMenu(pharmacys,medications,buyingMedicine,true);
             break;
         case 6:
-            subMenu(doctors,true);
+            subMenu(bloodBank,bloodReservation,true);
             break;
         case 7:
             subMenu(doctors,specialtys,true);
@@ -362,10 +367,12 @@ void report(){
     getReport(id,clinicsReservation,clinics);
     cout << "------------------------- Labs Report ---------------------------" << endl;
     getReport(id,labsReservation,lab);
+    cout << "------------------------- Rays Report ---------------------------" << endl;
+    getReport(id,raysReservation,rays);
     cout << "------------------------- Pharmacy Report ---------------------------" << endl;
     getReport(id,buyingMedicine,pharmacys);
-    cout << "------------------------- Rays Report ---------------------------" << endl;
     cout << "------------------------- Blood Bank Report ---------------------------" << endl;
+    getReport(id,bloodReservation,bloodBank);
     
     cout << "0- .. Back to Main Menu" << endl;
     cout << "9- .. Quit" << endl;
