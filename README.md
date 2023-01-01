@@ -50,7 +50,7 @@
 
 
 ## Medical Care System Part 5 - Final  
-[![Medical Care System Part 4](<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">)](https://youtu.be/vSxEFaZZ88k "Medical Care System Part 5")
+[![Medical Care System Part 5](https://img.youtube.com/vi/vSxEFaZZ88k/0.jpg)](https://youtu.be/vSxEFaZZ88k "Medical Care System Part 5")
 
 
 ![Screenshot](./screenshots/1.png)
