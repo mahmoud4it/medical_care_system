@@ -34,11 +34,11 @@
 
 # Youtube Vedios:
 ## Medical Care System Part 1  
-[![Medical Care System Part 1](https://img.youtube.com/vi/ebogGN9hTks/1.jpg)](https://youtu.be/ebogGN9hTks "Medical Care System Part 1")
+[![Medical Care System Part 1](https://img.youtube.com/vi/ebogGN9hTks/0.jpg),70%](https://youtu.be/ebogGN9hTks "Medical Care System Part 1")
 
 
 ## Medical Care System Part 2  
-[![Medical Care System Part 2](https://img.youtube.com/vi/27nBYhmuml4/2.jpg)](https://youtu.be/27nBYhmuml4 "Medical Care System Part 2")
+[![Medical Care System Part 2](https://img.youtube.com/vi/27nBYhmuml4/0.jpg)](https://youtu.be/27nBYhmuml4 "Medical Care System Part 2")
 
 
 ## Medical Care System Part 3  
